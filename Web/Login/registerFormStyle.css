@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #97C5FF;
+	padding: 50px;
+	text-align: center;
+}
+
+
+
+input[type=text] , input[type = number] , input[type = password]
+{
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0px;
+    display: inline-block;
+	border: none;
+    background: #f1f1f1;
+}
+
+
+label{
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+.submit{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+input[type=submit]{
+	margin:auto;
+	display:block;
+}
+
+.changeForm{
+	margin-left: 1000px;
+}
+
+a{
+	margin-left: 300px;	
+}
